@@ -1,0 +1,2 @@
+# intractive-rating-component
+ 

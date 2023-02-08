@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/icons8-moosebear-48.png" type="image/x-icon">
+    <title> Rating component</title>
+    <!--normalized css-->
+    <link rel="stylesheet" href="./normalize.css">
+    <!--custom css-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--custom script-->
+<section class="section" id="card1">
+    <div class="star">
+    <img src="./images/icon-star.svg" class="star-icon" id="star-icon">
+    </div>
+
+    <div class="title">
+        <h1 class="question" id="question">How did we do?</h1>
+        <p class="answer" id="answer">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering! </p>
+    </div>
+
+    <div class="buttons">
+        <button class="btn btn-1">1</button>
+        <button class="btn btn-2">2</button>
+        <button class="btn btn-3">3</button>
+        <button class="btn btn-4">4</button>
+        <button class="btn btn-5">5</button>
+
+    </div>
+
+    <button class="btns submit" id="btnSubmit">SUBMIT</button>
+</section>
+
+<!--section1-->
+<main class="section-1 hidden" id="card2">
+    <div class="ima">
+        <img src="./images/illustration-thank-you.svg" class="ima-icon" id="ima-icon">
+        </div>
+
+
+        <div class="card">
+            <p class="line" id="output">You selected <span class="ratings">3</span> out of 5</p>
+        </div>
+
+
+        <div class="title1">
+            <h1 class="question1">Thank you!</h1>
+            <p class="answer1">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </div>
+        <button class="rate-btn" id="rate-btn">Rate again</button>
+
+</main>
+    <script src="./script.js"></script>   
+</body>
+</html>
